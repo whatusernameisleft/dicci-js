@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>dicci.js</title>
+    <link rel="icon" href="https://cdn.glitch.com/5a87db5f-2e36-42b6-b8ac-1eb6ac5a285d%2Fdicci-js.png"/>
+    <style>
+      
+      .title {
+        position: relative;
+      }
+      
+      a {
+        text-decoration:none;
+      }
+      
+      .moreButton {
+        width: 70px;
+        height: 30px;
+        background: #82b7e3;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 1px 5px;
+        cursor: pointer;
+        transition: width 1s;
+      }
+      
+      .moreButton:hover {
+        background: #4192D5;
+        width: 100px;
+      }
+      
+      .home {
+        background: #4391D3;
+        border: none;
+        color: white;
+        width: 100px;
+        height: 33px;
+        padding: 3px 7px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: 17px;
+        position: absolute;
+        top: 89px;
+        left: 0;
+      }
+      
+      .home:hover {
+        background: #DCDCDC;
+        color: black;
+      }
+      
+      .about {
+        background: #323639;
+        border: none;
+        width: 100px;
+        height: 33px;
+        padding: 3px 7px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: 17px;
+        color: white;
+        position: absolute;
+        top: 89px;
+        left: 100px;
+      }
+      
+      .about:hover {
+        background: #DCDCDC;
+        color: black;
+      }
+      
+      
+      body {
+        background: #cecece;
+      }
+      
+      .feat-1 {
+        grid-column: 3/9;
+        grid-row: 2;
+      }
+      
+      .glitch-img {
+        grid-column: 9;
+        grid-row: 2;
+      }
+      
+      .heroku-img {
+        grid-column: 10;
+        grid-row: 2;
+      }
+      
+      .feat-2 {
+        grid-column: 4/11;
+      }
+      
+      .djs-img {
+        grid-column: 3;
+        grid-row: 3;
+      }
+      
+      .feat-3 {
+        grid-column: 3/10;
+      }
+      
+      .code-img {
+        grid-column: 10;
+        grid-row: 4;
+      }
+
+      .mainbox {
+        grid-column: 3/11;
+        grid-row: 1;
+      }
+
+      .sidebar {
+        grid-column: 1/3;
+        grid-row: 1/7;
+      }
+
+      .wrapper > div{
+        background: #adadad;
+        padding: 1em;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #9CA0A3;
+        padding: 1em;
+      }
+      
+      .wrapper {
+        display:grid;
+        grid-template-columns: repeat(10, );
+        grid-template-rows: repeat(10, 1fr);
+        grid-gap: 1em;
+      }
+
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <header>
+    <h1 class="title">dicci.js
+    <a href="/"><button class="home">Home</button></a>
+    <a href="/about"><button class="about">About</button></a>
+    </h1>
+  </header>
+  <body>
+    
+    <div class="wrapper">
+      <div class="sidebar">
+      This is the side bar.
+      </div>
+      <div class="mainbox">
+        This is the official home page for dicci.js, a Discord bot created by <a href="https://glitch.com/@galaxycrusher"><strong>Galaxy Crusher</strong></a> with help from <a href="https://glitch.com/@FerlisZeverb"><strong>Ferlis Zeverb</strong></a>. dicci.js is coded with the library discord.js in Javascript and is hosted on Glitch. We have also partnered with the Minecraft server, <a href="https://legamemc.weebly.com/"><strong>LegameMC</strong></a>. <a href="/about"><button class="moreButton">More ➙</button></a>
+      </div>
+      <div class="feat-1">
+        <h2>24/7 Uptime</h2>
+        <div class="desc">
+          dicci.js is currently hosted on <a href="https://glitch.com/">Glitch</a>, but may switch to <a href="https://www.heroku.com/">Heroku</a>. 
+        </div>
+      </div>
+      <div class="glitch-img">
+        <img src="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Flogo-night.svg" height="70px">
+      </div>
+      <div class="heroku-img">
+        <img src="http://assets.stickpng.com/thumbs/58480873cef1014c0b5e48ea.png" height="70px">
+      </div>
+      <div class="feat-2">
+        <h2>Improved Commands</h2>
+        <div class="desc">
+          A powerful library means better commands than ever.
+        </div>
+      </div>
+      <div class="djs-img">
+        <img src="https://cdn.glitch.com/3a71260d-653e-42b9-a2bb-955b45f09565%2Fdjs.png?1525155074667" height="90px">
+      </div>
+      <div class="feat-3">
+        <h2>Open Source Code</h2>
+        <div class="desc">
+          Source code is available for everyone to remix on <a href="https://glitch.com/edit/#!/dicci-js">Glitch</a>.
+        </div>
+      </div>
+      <div class="code-img">
+        <img src="https://cdn.glitch.com/3a71260d-653e-42b9-a2bb-955b45f09565%2Fcode%20img.png?1525155078109" height="90px">
+      </div>
+    </div>
+  </body>
+</html>

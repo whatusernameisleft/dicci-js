@@ -1,0 +1,33 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;
+  margin: 2em;
+}
+
+h1 {
+  font-weight: bold;
+  color: #358FDB;
+  font-size: 50px;
+}
+
+.title {
+  font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;
+  background: #4D5154;
+  padding: 0.3em;
+      
+}
+
+style {
+  font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;  
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+}
+
+.desc {
+  font-weight: bold;
+  color: #117dd4;
+}
